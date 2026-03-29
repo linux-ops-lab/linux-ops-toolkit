@@ -1,0 +1,13 @@
+<network>
+  <name>name_net</name>
+  <forward mode='nat'/>
+  <bridge name='virbr_num' stp='on' delay='0'/>
+  <domain name='name_net' localOnly='yes'/>
+  <dns>
+    <host ip='ENTER YOUR DNS HERE'>
+      <hostname>gateway</hostname>
+    </host>
+  </dns>
+  <ip address='ipv4' netmask='255.255.255.0' localPtr='yes'>
+  </ip>
+</network>
