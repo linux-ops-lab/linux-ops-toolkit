@@ -1,6 +1,6 @@
 # KVM Guest Update Automation
 
-This repository contains a small Bash-based automation setup for patching and rebooting running KVM guests from a central KVM host.
+This folder contains a small Bash-based automation setup for patching and rebooting running KVM guests from a central KVM host.
 
 The goal of this project is not to replace a full configuration management system such as Ansible, Salt, Puppet, or Uyuni. Instead, it demonstrates a lightweight, auditable, and security-conscious approach for controlled host-based update automation in a small virtualized Linux environment.
 
